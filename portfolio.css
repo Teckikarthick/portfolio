@@ -1,0 +1,713 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.Head{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.2);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.heading h1{
+    font-size: 32px;
+}
+.heading h1:hover{
+    color: gold;
+    transition: all 0.3s;
+}
+.menu{
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+.icon :hover{
+    color: gold;   
+}
+.Head-list1 ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.Head-list1 ul li a:hover{
+    color: gold;
+    transition: all 0.3s;
+}
+.Head-list1 ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition: all 0.3s;
+}
+.heading{
+    font-size: 15px;
+    color: white;
+    font-size: 20px
+}
+.home{
+    height: auto;
+    width: 100%;
+}
+.home img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.name{
+    color:white;
+    position: absolute;
+    left: 5%;
+    top: 10rem;
+    font-size: 40px;
+}
+.icon ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    position: absolute;
+    top: 45rem;
+    left: 5%;
+    list-style-type: none;
+}
+.icon ul li a{
+    color: white;
+    font-size: 25px;   
+}
+.home-main{
+    height: 138vh;
+    width: 100%;
+}
+.home p{
+    position: absolute;
+    top: 15rem;
+    left: 30px;
+    font-size: 70px;
+    text-align: center;
+}
+.name{
+    position: absolute;
+    top: 23rem;
+    font-size: 40px;
+}
+
+.next{
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+}
+.demo{
+    display: flex;
+    gap: 20px; 
+}
+
+.next{
+    display: flex;
+    flex-direction: row;
+}
+.About-Heading{
+    height: auto;
+    width: 80%;
+    
+}
+.About-Heading h1{
+    text-align: center;
+    font-size: 4rem;
+    color:white;
+}
+.About-text{
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+}
+.About-text h3{
+    font-size: 35px;
+    color: aqua;
+}
+.About-H img{
+    height: auto;
+    width: 80%;
+    border-radius: 30px;
+}
+.About-text p{
+    padding: 15px 0px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;   
+    
+}
+.content button{
+    padding: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: transparent;
+    border-radius:10px;
+    transition: all 0.3s;
+    font-size: 20px;
+}
+.content button:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.3s;
+}
+.card-main img{
+    width: 100%;
+    height: 100vh;
+}
+.card-main{
+    background: url(asserts/HmgQJDl\ -\ Imgur.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 100% bottom 100%;   
+}
+
+.resume{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 50px;
+    align-items: center;
+    padding-top: 40px;
+}
+.card2 h1{
+    font-size: 25px;    
+}
+.card3 h1{
+    font-size: 28px;
+}
+.card4 h1{
+    font-size: 26px;
+}
+
+ .card1:hover{
+    box-shadow: 10px 10px  rgba(0, 0, 0, 0.774);
+}
+ .card2:hover{
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.774);
+}
+.card3:hover{
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.774);
+}
+.card4:hover{
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.774);
+}
+.card1{
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 35px;
+    color: white;
+}
+.card2{
+    height: 100%;
+    width: 80%;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    line-height: 35px;
+    border-radius: 10px;
+}
+.card3{
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    line-height: 35px;
+}
+.card4{
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border-radius: 10px;
+    line-height: 35px;
+}
+.Contact-Head{
+    text-align: center;
+    font-size: 40px;
+}
+.form h3{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.form{
+    text-align: center;
+    padding: 20px;
+}
+
+.inputs{
+    padding-bottom: 20px;
+}
+.input{
+    border: 1px solid black;
+    padding: 30px;
+    font-size: 15px;
+    width: 19rem;
+    background: transparent;
+    
+}
+.button5 {
+    padding: 20px;
+    color: rgb(14, 12, 12);
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 17px;
+    transition: 0.3s;
+    border: 1px solid black;
+    cursor: pointer;   
+}
+.button5:hover{
+    background-color: black;
+    transition: all 0.3s;
+    color: white;
+}
+.contact-main{
+    background-color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+.footer-main{
+    height: 100%;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+.foot{
+    padding-top: 20px;
+}
+@media only screen and (max-width:481px){
+    .Head{
+        width: 100%;
+    }
+    .Head-list1{
+        display: none;
+    }
+    .menu{
+        display: block;
+        padding-right: 20px;
+    }
+    .icon ul{
+        top: 27rem;
+        left: 20px;
+    }
+    .icon ul li a{
+        font-size: 25px;
+    }
+    .card1{
+        font-size: 17px;
+    }
+
+    .home-main{
+        height: 34rem;
+        width: 100%;
+    }
+
+    .home{
+        height: 100vh;
+    }
+    .About-text{
+        padding: 10px;
+    }
+    .About-H img{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .About-Heading h1{
+        padding-left: 3rem;
+    }
+    .About-text h3{
+        font-size: 28px;
+    }
+    .About-H{
+        padding-left:0px;
+        padding: 25px;
+        padding-top: 5rem;
+    }
+    .home p{
+        top: 0px;
+        left: 0px;
+        font-size: 10px;
+    }
+    .heading h1{
+        font-size: 25px;
+    }
+    .next{
+        padding: 0px;
+    }
+    .next{
+        flex-wrap: wrap;
+    }
+    .resume button{
+        font-size: 13px;
+    }
+    .resume button{
+        padding: 10px;
+    }
+
+    .input{
+        width: 15rem;
+    }
+    .card1 h4{
+        font-size: 16px;
+    }
+    .card2 h1{
+        font-size: 23px;
+    }
+    .card3 h1{
+        font-size: 28px;
+    }
+    .name{
+        font-size: 20px;
+        top: 17rem;
+    }
+    .Contact-Head h1{
+        font-size: 30px;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .rows{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:481px) and (max-width: 768px){
+    .Head{
+        width: 100%;
+    }
+
+    .Head-list1{
+        display: none;
+    }
+    .menu{
+        display: block;
+        padding-left: 80px;
+    }
+
+    .heading h1{
+        font-size: 28px;
+    }
+
+    .icon ul{
+        top: 27rem;
+        left: 20px;
+    }
+
+    .icon ul li a{
+        font-size: 30px;
+    }
+
+    .home-main{
+        height: 34rem;
+        width: 100%;
+    }
+
+    .home{
+        height: 100vh;
+    }
+
+    .heading{
+        font-size: 25px;
+    }
+
+    .home p{
+        top: 0px;
+        left: 0px;
+        font-size: 10px;
+    }
+
+    .next{
+        padding: 0px;
+        padding-bottom: 40px;
+    }
+
+    .About-H img{
+        height: 100%;
+        width: 100%;
+    }
+    .About-H{
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+
+    .About-text{
+        padding: 10px;
+    }
+    .About-text h3{
+        font-size: 26px;
+    }
+    .About-Heading h1{
+        font-size: 50px;
+        padding-top: 15px;
+    }
+
+    .resume button{
+        padding: 25px;
+    }
+    .name{
+        font-size: 25px;
+        top: 17rem;    
+    }
+    .Contact-Head h1{
+        font-size: 40px;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    .rows{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+    .Head{
+        width: 100%;
+    }
+    .Head-list1{
+        display: none;
+    }
+    .menu{
+        display: block;
+        padding-left: 100px;
+        font-size: 30px;
+    }
+
+    .heading h1{
+            font-size: 40px;
+        
+    }
+
+    .icon ul{
+        top: 40rem;
+        left: 65px;
+    }
+
+    .icon ul li a{
+        font-size: 38px;
+    }
+
+    .home-main{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .home{
+        height: 100vh;
+    }
+
+    .home p{
+        top: 0px;
+        left: 0px;
+        font-size: 10px;
+    }
+
+    .next{
+        padding: 0px;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .About-text{
+        padding: 10px;
+    }
+    .About-H{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .About-H img{
+        height: 100%;
+        width: 100%;
+        
+    }
+
+    .card1{
+        font-size: 30px;
+    }
+    .card2{
+        font-size: 25px;
+    }
+    .card3{
+        font-size: 25px;
+    }
+    .card4{
+        font-size: 25px;
+    }
+    .resume button{
+        font-size: 25px;
+        padding: 25px;
+    }
+    .name{
+        font-size: 45px;
+        top: 22rem;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .rows{
+        font-size: 20px;
+    }
+    .input{
+        height: 5rem;
+        width: 28rem;
+        font-size: 20px;
+
+    }
+    .rows h4{
+        font-size: 28px;
+    }
+    .rows p{
+        font-size: 28px;
+    }
+    .foot p{
+        font-size: 25px;
+        padding-bottom: 20px;
+    
+    }
+    .form h3{
+        padding-bottom: 30px;
+        font-size: 34px;
+    }    
+    
+
+}
+@media (min-width:1025px) and (max-width: 1200px){
+    .Head{
+        width: 100%;
+    }
+    .Head-list1{
+        display: none;
+    }
+    .menu{
+        display: block;
+        padding-left: 100px;
+        font-size: 30px;
+    }
+
+    .icon ul{
+        top: 40rem;
+        left: 65px;
+    }
+
+    .icon ul li a{
+        font-size: 38px;
+    }
+    .heading h1{
+        font-size: 42px;
+    }
+
+    .home-main{
+        height: 45rem;
+        width: 100%;
+    }
+
+    .home{
+        height: 100vh;
+    }
+
+    .home p{
+        top: 0px;
+        left: 0px;
+        font-size: 10px;
+    }
+
+    .next{
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+    .About-text{
+        padding: 10px;
+    }
+    .About-H{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .About-H img{
+        height: 100%;
+        width: 100%;
+    }
+    .card1{
+        font-size: 30px;
+    }
+    .card2{
+        font-size: 25px;
+    }
+    .card3{
+        font-size: 25px;
+    }
+    .card4{
+        font-size: 25px;
+    }
+    .resume button{
+        font-size: 25px;
+        padding: 25px;
+    }
+    .card1 h3{
+        font-size: 25px;
+    }
+    .card1 h4{
+        font-size: 25px;
+    }
+    .name{
+        font-size: 45px;
+        top: 22rem;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    .rows{
+        font-size: 20px;
+    }
+    .input{
+        height: 5rem;
+        width: 28rem;
+        font-size: 20px;
+
+    }
+    .rows h4{
+        font-size: 28px;
+    }
+    .rows p{
+        font-size: 28px;
+    }
+    .foot p{
+        font-size: 25px;
+        padding-bottom: 20px;
+    
+    }
+    .form h3{
+        padding-bottom: 30px;
+        font-size: 34px;
+    }
+}
